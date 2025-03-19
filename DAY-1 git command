@@ -1,0 +1,9 @@
+git config --global user.name "Hemant"
+git config --global user.email hemant.k.hcst@gmail.com
+echo "# hemantcloud" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TechyHemant/hemantcloud.git
+git push -u origin main
